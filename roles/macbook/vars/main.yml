@@ -1,4 +1,48 @@
 homebrew_packages:
+  # Languages e.t.c.
+  - { name:  gcc }
+  - { name:  go }
+  - { name: openjdk@17 }
+  - { name: python@3.11 }
+  - { name: rbenv}
+  - { name: rust }
+  - { name: flutter }
+  - { name: lua }
+
+  # Tools - dev
+  - { name: gh }
+  - { name: git }
+  - { name: git-lfs }
+  - { name: just }
+  - { name: sqlite }
+  - { name: terraform }
+    
+  # Tools - util
+  - { name: ffmpeg }
+  - { name: stow }
+  - { name: nmap }
+  - { name: autoconf }
+  - { name: automake }
+  
+  # Tools - command
 
 homebrew_cask_packages:
+  # Editor e.t.c.
+  - { name: visual-studio-code }
+  - { name: iterm2 }
+  - { name: jetbrains-toolbox }
+    
+  # Tools - analysis
+  - { name: wireshark }
+    
+  # Tools - util
+  - { name: wine-crossover }
+  - { name: clipy }
+  - { name: fig }
+  - { name: notion }
+  - { name: postman }
+    
+  # Tools - vm
+  - { name: utm }
+  - { name: docker }
   
